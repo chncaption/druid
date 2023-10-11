@@ -47,7 +47,7 @@
         <dependency>
             <groupId>com.amazonaws</groupId>
             <artifactId>amazon-kinesis-producer</artifactId>
-            <version>0.13.1</version>
+            <version>0.15.8</version>
         </dependency>
         <dependency>
             <groupId>org.apache.avro</groupId>
@@ -574,8 +574,8 @@
                 <docker.build.skip>false</docker.build.skip>
                 <docker.build.hadoop>false</docker.build.hadoop>
                 <it.indexer>middleManager</it.indexer>
-                <override.config.path />
-                <resource.file.dir.path />
+                <override.config.path/>
+                <resource.file.dir.path/>
 
                 <!-- Would like to put emojis in here too, but they throw "Input buffer too short" errors due to https://issues.apache.org/jira/browse/SUREFIRE-1865 -->
                 <extra.datasource.name.suffix>\ %Россия\ 한국\ 中国!?</extra.datasource.name.suffix>
@@ -696,8 +696,8 @@
                 <pod.name>int-test</pod.name>
                 <pod.namespace>default</pod.namespace>
                 <build.druid.cluster>false</build.druid.cluster>
-                <override.config.path />
-                <resource.file.dir.path />
+                <override.config.path/>
+                <resource.file.dir.path/>
 
                 <!-- Would like to put emojis in here too, but they throw "Input buffer too short" errors due to https://issues.apache.org/jira/browse/SUREFIRE-1865 -->
                 <extra.datasource.name.suffix>\ %Россия\ 한국\ 中国!?</extra.datasource.name.suffix>
